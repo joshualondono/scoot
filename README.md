@@ -8,14 +8,14 @@ Example command scoot::2
 
 ## scoot commands 
 
-scoot - enter array without editing data at position given
+scoot:: - enter array without editing data at position given
 
-saw - cut from end of your input array and leave new value at front
+saw:: - cut from end of your input array and leave new value at front
 
-shave - cut from start of your input array and leave new value at front 
+shave:: - cut from start of your input array and leave new value at front 
 
-swap - replace element 
+swap:: - replace element 
 
-gut - empty array
+gut:: - empty array
 
-bite - replace chunk of data and replace with single value
+bite:: - replace chunk of data with your value
