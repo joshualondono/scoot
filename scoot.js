@@ -60,14 +60,10 @@ const cmdNum = Number(cmdCut)
     }
 }
 
-readline.question('add a count to scoot in the array: ', val => {
-  const array = ['🔐', '🔐','🔐', '🔐','🔐', '🔐','🔐']
-  console.log(edit(array, '📄', val))
-  readline.close();
-});
 
 
-//////////////////////////////////////////////////////////////END
+
+
 //empty policed cells to create a dark zone until area is clear
 
 //add to end > working
@@ -105,4 +101,8 @@ const readline = require('readline').createInterface({
 //   readline.close();
 // });
 
-
+readline.question('add a count to scoot in the array: ', val => {
+  const array = ['🔐', '🔐','🔐', '🔐','🔐', '🔐','🔐']
+  console.log(edit(array, '📄', val))
+  readline.close();
+});
