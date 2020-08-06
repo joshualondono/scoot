@@ -3,7 +3,7 @@
 
 Run node main.js in your terminal to see a demo 
 
-**There are 4 commands 
+## scoot commands 
 
 scoot - enter array without editing data at position given
 saw - cut from end of your input array and leave new value at front 
