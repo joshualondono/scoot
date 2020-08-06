@@ -102,7 +102,7 @@ const readline = require('readline').createInterface({
 // });
 
 readline.question('add a count to scoot in the array: ', val => {
-  const array = ['🔐', '🔐','🔐', '🔐','🔐', '🔐','🔐']
+  const array = ['🔐', '🔐','🔐', '🔐','🦠', '🦠','🦠']
   console.log(edit(array, '📄', val))
   readline.close();
 });
