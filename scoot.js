@@ -101,7 +101,7 @@ const readline = require('readline').createInterface({
 //   readline.close();
 // });
 
-readline.question('add a count to scoot in the array: ', val => {
+readline.question('enter scoot command: ', val => {
   const array = ['🔐', '🔐','🔐', '🔐','🦠', '🦠','🦠']
   console.log(edit(array, '📄', val))
   readline.close();
